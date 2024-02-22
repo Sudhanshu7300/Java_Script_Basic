@@ -26,7 +26,6 @@ if (true) {
 // Variables declared outside of any function or block have global scope.
 // Global scope means that the variable is accessible from anywhere in the code.
 one();
-
 function one() {
   const username = "Sudhanshu";
   function two() {
