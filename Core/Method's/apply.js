@@ -1,3 +1,4 @@
+// apply: The apply() method calls a function with a given this value, and arguments provided as an array (or an array-like object).
 let showDetail = function (city, car) {
   console.log(
     `${this.name} is ${this.age} year old, he live in ${city} and he drives ${car}`
@@ -17,4 +18,4 @@ let Person2 = {
 // function borrowing
 // Person.showDetails.call(Person2);
 
-showDetail.call(Person, "Noida", "Thar");
+showDetail.apply(Person, ["Noida", "BMW"]);
