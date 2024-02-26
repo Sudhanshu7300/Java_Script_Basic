@@ -12,6 +12,8 @@ printNumber(number);
 let strings = ["Ek", "Do", "Teen", "Char"];
 
 let a = [];
+
+
 function StringConvertUPP(values) {
   values.forEach((item) => {
     const Change = item.toUpperCase();

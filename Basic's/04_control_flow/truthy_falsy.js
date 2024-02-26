@@ -35,3 +35,29 @@ console.log(val1);
 
 const iceTeaPrice = 100;
 iceTeaPrice <= 80 ? console.log("Less then 80") : console.log("more then 80");
+
+// == double equals
+const a = 2 == "2";
+console.log(a); // return true
+// === triple
+const b = 2 === "2"; // return type error
+
+// example question
+(function () {
+  if ((-100 && 100 && "0") || [] === true || 0) {
+    console.log(1); /// 1
+
+    if ([] || (0 && false)) {
+      console.log(2); // 2s
+    }
+    if (Infinity && NaN && "false") {
+      console.log(3); // false
+    }
+    if (" ") {
+      console.log(4); // 4
+    } else console.log(5);
+    if (({} || false === "") && !(null && undefined)) {
+      console.log(6); // 6
+    }
+  }
+})();

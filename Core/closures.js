@@ -8,3 +8,32 @@ function add() {
 }
 const catchAdd = add();
 catchAdd();
+
+for (let i = 0; i <= 5; i++) {
+  setTimeout(function log() {
+    console.log(i);
+  }, 1000);
+}
+
+for (var i = 0; i <= 5; i++) {
+  setTimeout(function log() {
+    console.log(i);
+  }, 1000);
+}
+
+for (var i = 0; i <= 5; i++) {
+  (function () {
+    var j = i;
+    setTimeout(function log() {
+      console.log(j);
+    }, 1000);
+  })();
+}
+
+let x = 0;
+for (; x <= 5; x++) {
+  setTimeout(function log() {
+    console.log(x);
+  }, 1000);
+}
+ 
