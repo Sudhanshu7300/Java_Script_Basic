@@ -4,7 +4,7 @@ const findDupNumber = [];
 const removeDuplicate = [];
 
 for (let i = 0; i < arrNumber.length; i++) {
-  currentNumber = arrNumber[i]; // 
+  currentNumber = arrNumber[i];
   if (occurrences[currentNumber] === undefined) {
     occurrences[currentNumber] = removeDuplicate.push(currentNumber); //  Remove Duplicate Number
   } else {
@@ -13,8 +13,6 @@ for (let i = 0; i < arrNumber.length; i++) {
 }
 console.log("Find Duplicate Number UpdatedArray", findDupNumber);
 console.log("Remove  Duplicate Number ", removeDuplicate);
-
-
 
 // Loop Iteration:
 
