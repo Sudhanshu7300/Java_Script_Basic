@@ -9,17 +9,15 @@ const trimMethod =
 // console.log(trimMethod.trim());
 
 const NameValue = trimMethod.split(" ");
-console.log(NameValue[1]);
+// console.log(NameValue[1]);
 
-
-
-// const a = "a";
-// const b = "b";
-// if (a < b) {
-//   // true
-//   console.log(`${a} is less than ${b}`);
-// } else if (a > b) {
-//   console.log(`${a} is greater than ${b}`);
-// } else {
-//   console.log(`${a} and ${b} are equal.`);
-// }
+const a = "a";
+const b = "b";
+if (a < b) {
+  // true
+  console.log(`${a} is less than ${b}`);
+} else if (a > b) {
+  console.log(`${a} is greater than ${b}`);
+} else {
+  console.log(`${a} and ${b} are equal.`);
+}

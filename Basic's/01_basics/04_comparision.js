@@ -24,7 +24,7 @@
 // console.log(2 == 1);
 // console.log(2 != 1);
 
-// console.log("2" > 1); // Need use to typescipt  becuase not predictable result of these compaision
+// console.log("2" > 1); // Need use to typescipt  becuase not predictable result of these comparision
 
 //  console.log(null > 0);
 // This evaluates to false because null is coerced to 0, making the expression 0 > 0, which is false.

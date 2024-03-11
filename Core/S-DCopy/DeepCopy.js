@@ -8,7 +8,10 @@
 let sports = ["Cricket", "Football", "Swimming", { a: "Sudhanshu", age: 25 }];
 
 let copySports = JSON.parse(JSON.stringify(sports));
+
+
 console.log(copySports, "copySports");
+
 copySports[1] = "Baseball";
 copySports[3]["a"] = "Anuj";
 console.log("orignal", sports);

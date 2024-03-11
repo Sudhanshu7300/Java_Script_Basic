@@ -46,7 +46,6 @@ const b = 2 === "2"; // return type error
 (function () {
   if ((-100 && 100 && "0") || [] === true || 0) {
     console.log(1); /// 1
-
     if ([] || (0 && false)) {
       console.log(2); // 2s
     }

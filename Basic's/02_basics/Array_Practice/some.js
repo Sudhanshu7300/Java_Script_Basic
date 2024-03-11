@@ -32,7 +32,6 @@ function getStringValues(array) {
     }
   });
   return stringValues;
-  0;
 }
 
 var mixedArray = [1, "hello", true, { name: "John" }];
