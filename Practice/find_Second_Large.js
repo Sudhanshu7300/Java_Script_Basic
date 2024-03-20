@@ -9,10 +9,7 @@ for (let i = 0; i < arrNumber.length; i++) {
     secondLarge = largest;
     largest = currentElement;
   } else if (currentElement > secondLarge) {
-    thirdLarge = secondLarge;
     secondLarge = currentElement;
-  } else if (currentElement > thirdLarge) {
-    thirdLarge = currentElement;
   }
 }
 console.log("largest  number:", largest);

@@ -1,4 +1,3 @@
-// ** Linear Search
 let data = [10, 20, 90, 400, 250, 160, 400];
 
 let search = 400;
@@ -9,7 +8,4 @@ for (let i = 0; i <= data.length; i++) {
   }
 }
 console.log(index);
-
-// console.log(data.indexOf(search));
-
 
