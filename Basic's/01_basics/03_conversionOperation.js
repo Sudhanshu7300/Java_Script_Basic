@@ -7,6 +7,7 @@ let ValueInNumber = Number(score);
 // console.log(typeof ValueInNumber);
 // console.log(ValueInNumber);
 
+
 // "33" => 33
 // "33Sudhanshu" => NaN
 // true => 1: false => 0
